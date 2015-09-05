@@ -21,3 +21,7 @@ A startup exercise with Meteor, building a simple todo app.
   ```
   meteor add twbs:bootstrap
   ```
+* for user accounts feature:
+  ```
+  meteor add accounts-ui accounts-password
+  ```
