@@ -28,5 +28,15 @@
 
 
 <template name="main">
-	This is the main template.
+	<ul>
+		{{#each todos}}
+			<li>
+				<button class="delete-todo"> &times;</button>
+				<input type="checkbox" class="toggle-check">
+				<span class='text'>
+					{{text}}
+				</span>
+			</li>
+		{{/each}}
+	</ul>
 </template>
