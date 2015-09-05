@@ -50,6 +50,10 @@
 		{{/each}}
 	</ul>
 	{{else}}
-		<p>Please login to see your Todos.</p>
+		{{#if currentUser}}
+			<p>Getting started with your todos from now!</p>
+		{{else}}
+			<p>Please login to see your Todos.</p>
+		{{/if}}
 	{{/if}}
 </template>
