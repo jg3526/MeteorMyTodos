@@ -25,3 +25,7 @@ A startup exercise with Meteor, building a simple todo app.
   ```
   meteor add accounts-ui accounts-password
   ```
+* remove insecure package:
+  ```
+  meteor remove insecure
+  ```
