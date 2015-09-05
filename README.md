@@ -7,6 +7,7 @@ A startup exercise with Meteor, building a simple todo app.
 * CRUD functionality
 * user accounts
 * security measures
+* access control
 
 ## Notes
 * to create a new meteor project:
@@ -29,3 +30,11 @@ A startup exercise with Meteor, building a simple todo app.
   ```
   meteor remove insecure
   ```
+* for access control:
+  ```
+  meteor remove autopublish
+  ```
+
+## Screenshot
+![alt text][screenshot]
+[screenshot]:screencapture-localhost-3000-1441482712870.png
