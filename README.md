@@ -34,6 +34,13 @@ A startup exercise with Meteor, building a simple todo app.
   ```
   meteor remove autopublish
   ```
+* to deploy on meteor:
+  ```
+  meteor deploy <app_name>.meteor.com
+  ```
+  
+## Test
+[myTodos Deployment](http://betapoctodos.meteor.com/)
 
 ## Screenshot
 ![alt text][screenshot]
