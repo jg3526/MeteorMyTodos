@@ -11,4 +11,4 @@ A startup exercise with Meteor, building a simple todo app.
 ## Notes
 
 * to install bootstrap:
-  '''meteor add twbs:bootstrap'''
+  ```meteor add twbs:bootstrap```
