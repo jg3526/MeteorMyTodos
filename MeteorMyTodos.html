@@ -35,6 +35,7 @@
 		</div>
 	</form>
 	{{/if}}
+	{{#if todos.count}}
 	<ul>
 		{{#each todos}}
 			<li class="{{#if checked}} checked{{/if}}">
@@ -48,4 +49,7 @@
 			</li>
 		{{/each}}
 	</ul>
+	{{else}}
+		<p>Please login to see your Todos.</p>
+	{{/if}}
 </template>
